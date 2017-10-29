@@ -1,19 +1,58 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+	font-family: Verdana;
+	font-size: 22px;
+	color: seashell;
+}
+
+body {
+	background-color: black;
+	margin: 0;
+	
+}
+
+header {
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	display: flex;
+	align-items: center;
+  	justify-content: space-between;
+  	width: 100%;
+  	position: fixed;
+  	z-index: 5;
+	background-color: black;
+  	opacity: 0.9;
 }
 
 
-h1 {
-  color: SeaGreen;
+header ul li {
+	display: inline-block;
+	padding: 20px 10px;
+	text-decoration: underline; 
 }
 
-
-p, 
-li {
-  font-size: 18px;
+div.logo img {
+	padding-left: 10px;
+	height: 50px;
 }
 
+/*-- Main --*/
+main {
+	padding-top: 69px;
+	display: block;
+}
+.mission {
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 
-a {
-  text-decoration: none;
+}
+
+div.mission div {
+	align-items: center;
+	background-color: black;
+	text-align: center;
+	width: 100%;
 }
