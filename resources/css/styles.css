@@ -40,6 +40,8 @@ main {
 	padding-top: 69px;
 	display: block;
 }
+
+/*-- Mission --*/
 .mission {
 	background-image: url("../images/img-mission-background.jpg");
 	height: 700px;
@@ -55,4 +57,17 @@ div.mission div {
 	background-color: black;
 	text-align: center;
 	width: 100%;
+}
+
+/*-- Tea of the Month -- */
+
+.tea {
+	margin: 0 auto;
+	width: 1000px;
+	display: inline-flex;
+}
+
+div.tea img {
+	height: 200px;
+	width: 300px;
 }
