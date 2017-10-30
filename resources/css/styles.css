@@ -1,6 +1,5 @@
 * {
 	font-family: Verdana;
-	font-size: 22px;
 	color: seashell;
 }
 
@@ -11,6 +10,9 @@ body {
 }
 
 header {
+	font-family: Verdana;
+	font-size: 22px;
+	color: seashell;
 	border-bottom: 1px solid seashell;
 	height: 69px;
 	display: flex;
@@ -62,12 +64,40 @@ div.mission div {
 /*-- Tea of the Month -- */
 
 .tea {
-	margin: 0 auto;
+	margin: 125px auto;
 	width: 1000px;
-	display: inline-flex;
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+.tea h4 {
+	margin: 0 0 10px 0;
+}
+
+.firstrow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.secondrow {
+	display: flex;
+	justify-content: center;
 }
 
 div.tea img {
 	height: 200px;
 	width: 300px;
+	margin-bottom: 10px;
+}
+
+/*is there a better way to create space between two images?*/
+.leftimage {
+	margin-right: 20px;
+}
+
+.rightimage {
+	margin-left: 20px;
 }
