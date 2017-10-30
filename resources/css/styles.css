@@ -68,7 +68,7 @@ div.mission div {
 	width: 1000px;
 	display: block;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 
@@ -138,4 +138,18 @@ div.locationSection h2 {
 
 .spaceleft {
 	margin-left: 20px;
+}
+
+/* -- Footer -- */
+
+footer {
+	text-align: center;
+	height: 200px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+footer h2 {
+	margin-top: 0;
+	padding-top: 10px;
 }
