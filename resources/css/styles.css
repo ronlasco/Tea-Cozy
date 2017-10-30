@@ -101,3 +101,41 @@ div.tea img {
 .rightimage {
 	margin-left: 20px;
 }
+
+/*Locations*/
+
+.locationSection {
+	width: 1200px;
+	height: 500px;
+	background-image: url("../images/img-locations-background.jpg");
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+	
+}
+
+div.locationSection h2 {
+	margin-bottom: 15px;
+}
+
+.addresses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.boxes {
+	background-color: black;
+	opacity: 1;
+	width: 300px;
+	height: 250px;
+}
+
+.spaceright {
+	margin-right: 20px;
+}
+
+.spaceleft {
+	margin-left: 20px;
+}
