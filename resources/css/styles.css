@@ -1,18 +1,19 @@
 * {
-	font-family: Verdana;
-	color: seashell;
+	opacity: 0.9
+
 }
 
 body {
+	font-family: Helvetica;
+	color: seashell;
+	font-size: 22px;
 	background-color: black;
 	margin: 0;
 	
 }
 
 header {
-	font-family: Verdana;
-	font-size: 22px;
-	color: seashell;
+	
 	border-bottom: 1px solid seashell;
 	height: 69px;
 	display: flex;
@@ -23,6 +24,7 @@ header {
   	z-index: 5;
 	background-color: black;
   	opacity: 0.9;
+
 }
 
 
@@ -30,6 +32,10 @@ header ul li {
 	display: inline-block;
 	padding: 20px 10px;
 	text-decoration: underline; 
+}
+
+a:visited { 
+    color: seashell;
 }
 
 div.logo img {
@@ -131,6 +137,8 @@ div.locationSection h2 {
 	width: 300px;
 	height: 250px;
 }
+
+/*is there a better way to create space between two images?*/
 
 .spaceright {
 	margin-right: 20px;
