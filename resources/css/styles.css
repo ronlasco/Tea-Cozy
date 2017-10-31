@@ -33,6 +33,10 @@ header ul li {
 	text-decoration: underline; 
 }
 
+a:link {
+    color: seashell;
+}
+
 a:visited { 
     color: seashell;
 }
