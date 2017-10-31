@@ -153,3 +153,8 @@ footer h2 {
 	margin-top: 0;
 	padding-top: 10px;
 }
+
+span {
+	text-align: left;
+	padding-left: 20px;
+}
