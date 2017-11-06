@@ -1,8 +1,6 @@
-* {
-	opacity: 0.9
-}
 
 body {
+	opacity: 0.9;
 	font-family: Helvetica;
 	color: seashell;
 	font-size: 22px;
@@ -41,7 +39,12 @@ a:visited {
     color: seashell;
 }
 
-div.logo img {
+/*img {
+	padding: 0 20px;
+	margin: 0 20px;
+}*/
+
+.logo img {
 	padding-left: 10px;
 	height: 50px;
 }
@@ -84,9 +87,17 @@ div.mission div {
 
 .tea h4 {
 	margin: 0 0 10px 0;
+
 }
 
-.firstrow {
+.tearows {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+/*.firstrow {
 	display: flex;
 	justify-content: space-between;
 }
@@ -94,7 +105,7 @@ div.mission div {
 .secondrow {
 	display: flex;
 	justify-content: center;
-}
+}*/
 
 div.tea img {
 	height: 200px;
@@ -104,11 +115,11 @@ div.tea img {
 
 /*is there a better way to create space between two images?*/
 .leftimage {
-	margin-right: 20px;
+	margin-right: -100px;
 }
 
 .rightimage {
-	margin-left: 20px;
+	margin-left: -100px;
 }
 
 /*Locations*/
@@ -143,13 +154,13 @@ div.locationSection h2 {
 
 /*is there a better way to create space between two images?*/
 
-.spaceright {
+/*.spaceright {
 	margin-right: 20px;
 }
 
 .spaceleft {
 	margin-left: 20px;
-}
+}*/
 
 /* -- Footer -- */
 
